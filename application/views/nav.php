@@ -15,6 +15,7 @@
           <li><a class="nav-link scrollto" href="<?php echo base_url('About-Us'); ?>"/>About Us</a></li>
           <li><a class="nav-link scrollto" href="<?php echo base_url('Services'); ?>">Services</a></li>
           <li><a class="nav-link scrollto" href="<?php echo base_url('Products'); ?>">Products</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo base_url('Team'); ?>">Team</a></li>
           <li><a class="nav-link scrollto" href="<?php echo base_url('Contacts'); ?>">Contact</a></li>
           <li><a class="getstarted scrollto" href="<?php echo base_url('Book-Your-Appointment'); ?>">Book Your Appointment</a></li>
 

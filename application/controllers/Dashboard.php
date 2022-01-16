@@ -44,7 +44,7 @@ class Dashboard extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('nav');
-		$this->load->view('products');
+		$this->load->view('comming_soon');
 		$this->load->view('footer');
 	}
 
@@ -64,7 +64,17 @@ class Dashboard extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('nav');
-		$this->load->view('book_your_appointment');
+		$this->load->view('comming_soon');
+		$this->load->view('footer');
+	}
+
+
+	public function team()
+	{
+		$this->load->helper('url');
+		$this->load->view('header');
+		$this->load->view('nav');
+		$this->load->view('team');
 		$this->load->view('footer');
 	}
 	

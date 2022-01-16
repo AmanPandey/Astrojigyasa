@@ -57,6 +57,7 @@ $route['About-Us'] = "Dashboard/about";
 $route['Services'] = "Dashboard/services";
 $route['Products'] = "Dashboard/products";
 $route['Contacts'] = "Dashboard/contacts";
+$route['Team'] = "Dashboard/team";
 $route['Book-Your-Appointment'] = "Dashboard/bookYourAppointment";
 
 
