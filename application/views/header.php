@@ -26,72 +26,52 @@
   
   
   <style>
-      * {
-        box-sizing: border-box;
-      }
-      .openBtn {
-        display: flex;
-        justify-content: left;
-      }
-      .openButton {
-        border: none;
-        border-radius: 5px;
-        background-color: #1c87c9;
-        color: white;
-        padding: 14px 20px;
-        cursor: pointer;
-        position: fixed;
-      }
-      .loginPopup {
-        position: relative;
-        text-align: center;
-        width: 100%;
-      }
-      .formPopup {
-        display: none;
-        position: fixed;
-        right: 0px;
-        top: 50px;
-        transform: translate(-50%, 5%);
-        border: 3px solid #999999;
-        z-index: 9;
-      }
-      .formContainer {
-        max-width: 300px;
-        padding: 20px;
-        background-color: #fff;
-      }
-      .formContainer input[type=text],
-      .formContainer input[type=password] {
-        width: 100%;
-        padding: 15px;
-        margin: 5px 0 20px 0;
-        border: none;
-        background: #eee;
-      }
-      .formContainer input[type=text]:focus,
-      .formContainer input[type=password]:focus {
-        background-color: #ddd;
-        outline: none;
-      }
-      .formContainer .btn {
-        padding: 12px 20px;
-        border: none;
-        background-color: #8ebf42;
-        color: #fff;
-        cursor: pointer;
-        width: 100%;
-        margin-bottom: 15px;
-        opacity: 0.8;
-      }
-      .formContainer .cancel {
-        background-color: #cc0000;
-      }
-      .formContainer .btn:hover,
-      .openButton:hover {
-        opacity: 1;
-      }
-    </style>
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
 
 </head>
 

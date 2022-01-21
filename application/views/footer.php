@@ -44,10 +44,10 @@
             <h4>Our Networks</h4>
             <p>We are available on social media networks, please visit to follow us.</p>
             <div class="social-links mt-3">
-              <a href="www.linkedin.com" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="www.instagram.com" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="www.facebook.com" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="www.twitter.com" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.facebook.com/astrojigyasa1" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.instagram.com/astrojigyasa/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.facebook.com/astrojigyasa1" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://twitter.com/AstroJigyasa" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="https://wa.me/919953334515" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
             </div>
           </div>
@@ -79,7 +79,34 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
+
+  <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 
 </body>
 
