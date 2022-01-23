@@ -44,7 +44,7 @@
             <h4>Our Networks</h4>
             <p>We are available on social media networks, please visit to follow us.</p>
             <div class="social-links mt-3">
-              <a href="https://www.facebook.com/astrojigyasa1" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/astro-jigyasa-444a2122a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               <a href="https://www.instagram.com/astrojigyasa/" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="https://www.facebook.com/astrojigyasa1" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="https://twitter.com/AstroJigyasa" class="twitter"><i class="bx bxl-twitter"></i></a>
